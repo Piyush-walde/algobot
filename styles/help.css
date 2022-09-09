@@ -1,0 +1,94 @@
+/* help css */
+
+
+.helf-info{
+    width: 78%;
+    background-color: #214261;
+    margin-top: 5px;
+    margin-left: 18%;
+    /* justify-content: space-between; */
+    column-gap: 60px;
+    display: flex;
+    font-family: segoe UI;
+  }
+  
+  .help-left{
+    width: 40%;
+    /* height: 400px; */
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    row-gap: 20px;
+  }
+  
+  ::placeholder{
+    color: black;
+  }
+  
+  .help-right{
+    width: 100%;
+    /* height: 450px; */
+    background-color:#6792AD;
+
+    
+  }
+  
+  .int2{
+    width: 100%;
+    /* height: 500px; */
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    text-indent: 6px;
+      background-color: #6792AD;
+    font-size: 16px;
+    font-family: segoe UI;
+  }
+  
+  .help-info{
+    width: 78%;
+    background-color: #214261;
+    margin-top: 5px;
+    margin-left: 18%;
+    /* justify-content: space-between; */
+    column-gap: 60px;
+    display: flex;
+    font-family: segoe UI;
+  margin-top: 2cm;
+  margin-left: 3cm;
+  }
+  
+  .help-submit{
+    color:white;
+    background-color:#0A1521;
+    padding: 6px 15px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    border-color: white;
+    cursor: pointer;
+  }
+
+  .newtext{
+    width: 100%;
+    height: 450px;
+    background-color: #6792AD;
+    outline: none;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    line-height: 22px;
+    /* background-color: red; */
+
+  }
+  .helprightcontainer{
+    width: 50%;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
+}

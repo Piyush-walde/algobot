@@ -1,0 +1,113 @@
+/* css for login page */
+
+
+.parent_container{
+  height: 100vh;
+  width: 100%;
+  background-color: #143759;
+  display: flex;
+}
+.login-image{
+  width: 50%;
+  height: 100vh;
+  /* background-color: yellow; */
+}
+
+.logo2{
+  
+  position: absolute
+  
+}
+
+.login{
+  width: 50%;
+  height: 100vh;
+  background-color: #143759;
+  padding: 40px 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+
+}
+.name h2{
+  font-family: segoe UI;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+}
+.name hr{
+  width: 800%;
+  margin-left: -350%;
+  margin-top: 20px;
+}
+.name-con{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+}
+
+.usepas{
+  display: flex;
+  width: 80%;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+  /* column-gap: 30px; */
+  justify-content: space-between;
+}
+.usepas h5{
+   font-size:16px;
+   font-family: segoe UI;
+   color: white;
+   font-weight: 300;
+   line-height: 40px;
+}
+.usertext{
+  width: 78%;
+  border-radius: 8px;
+  border: none;
+  display: flex;
+ justify-content: space-between;
+}
+.flex{
+  display: flex;
+}
+.usertext h5{
+  margin-left: 15px;
+}
+
+.check{
+  width: 60%;
+  height: 40px;
+  /* background-color: pink; */
+  margin-top: 30px;
+}
+
+.acc{
+  width: 100%;
+  height: 200px;
+  /* background-color: yellow; */
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  row-gap: 50px;
+  /* cursor: pointer; */
+  /* justify-content: space-between; */
+}
+.login-btn{
+  padding: 10px 100px;
+  /* width: 50px; */
+  font-size: 25px;
+  color: white;
+  background-color: #0A1521;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.logbtn{
+  padding:10px 30px ;
+
+}

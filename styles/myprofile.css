@@ -1,0 +1,186 @@
+/* my profile css */
+
+.profilebox {
+    /* height: 110px; */
+    width: 78%;
+
+    margin-left: 18%;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.line5 {
+    height: 3px;
+    border-radius: 2px;
+    width: 37%;
+    background-color: white;
+
+}
+
+.line5>p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profile-info {
+    width: 78%;
+    background-color: #214261;
+    margin-top: 5px;
+    margin-left: 18%;
+    justify-content: space-between;
+    display: flex;
+    font-family: segoe UI;
+}
+
+.hh {
+    color: white;
+    font-family: segoe UI;
+    font-weight: 300;
+}
+
+.pro-left {
+    width: 40%;
+    /* height: 400px; */
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    row-gap: 20px;
+}
+
+.sevices {
+    width: 100%;
+    height: 200px;
+    /* background-color: pink; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: ; */
+    background-color: #6792AD;
+    color: black;
+    font-size: 16px;
+    font-family: segoe UI;
+    font-weight: 300;
+
+}
+
+.flex {
+    justify-content: space-between;
+}
+
+.int {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    text-indent: 6px;
+    background-color: #6792AD;
+    font-size: 16px;
+    font-family: segoe UI;
+}
+
+::placeholder {
+    color: black;
+}
+
+.line6 {
+    width: 100%;
+    height: 1px;
+    margin-top: 5px;
+    background-color: black;
+}
+
+.btn1 {
+    background-color: #6792AD;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    cursor: pointer;
+}
+
+.pro-right {
+    width: 55%;
+    /* height: 300px; */
+    background-color: #6792AD;
+    padding: 10px 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.span>h4 {
+    margin-top: 6px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.apidcontainer {
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 10px;
+    background-color: #466E96;
+    padding: 20px;
+
+}
+
+.inp {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.spn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.generate-key {
+    color: white;
+    background-color: #143759;
+    height: 30px;
+    width: 100px;
+    margin-top: 1cm;
+    border-radius: 0.1cm;
+    border-color: #143759;
+}
+
+.pro-submit {
+    color: white;
+    background-color: #143759;
+    height: 40px;
+    width: 120px;
+    margin-top: 0.5cm;
+    margin-left: 2cm;
+    border-radius: 0.3cm;
+    border-color: white;
+}
+
+.pro-reset {
+    color: white;
+    background-color: #143759;
+    height: 40px;
+    width: 120px;
+    margin-top: 0.5cm;
+    margin-left: 3cm;
+    border-radius: 0.3cm;
+    border-color: white;
+}
+
+.spn2 {
+    margin-left: 2cm;
+    margin-top: 0.5cm;
+}
+
