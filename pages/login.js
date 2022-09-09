@@ -59,7 +59,7 @@ const Login = () => {
             <div className='acc'>
 
                 <div >
-                <Link href='/dashboards'><button className='login-btn'>Login</button></Link>
+                <Link href='/dashboard'><button className='login-btn'>Login</button></Link>
                 </div>
                 <div >
                      
