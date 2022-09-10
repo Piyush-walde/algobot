@@ -15,9 +15,9 @@ const Dashboard = () => {
 
                     <p>  <h3>Dashboard</h3> </p>
                     <p>
-                      <Link href='/compo/notification'><CircleNotificationsIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} /></Link>  
+                        <Link href='/compo/notification'><CircleNotificationsIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} /></Link>
 
-                        <Link href='/myprofile'><AccountCircleIcon style={{ color: 'white', fontSize: '60px' ,cursor:'pointer'}} /></Link>
+                        <Link href='/myprofile'><AccountCircleIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} /></Link>
 
                     </p>
 

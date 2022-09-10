@@ -15,16 +15,16 @@ const Password = () => {
                         <h3>New Password</h3>
                         <input className='classinit' type='password'></input>
                     </div>
-                    <div className='flex3'> 
-                         <h3>Confirm Password</h3>
+                    <div className='flex3'>
+                        <h3>Confirm Password</h3>
                         <input className='classinit' type='password'></input>
-                     </div>
+                    </div>
 
-                     <div className='flex5'>
-                     <ArrowBackSharpIcon />   
-                    <Link href='/myprofile'><h3>Back</h3></Link> 
-                     </div>
-                    
+                    <div className='flex5'>
+                        <ArrowBackSharpIcon />
+                        <Link href='/myprofile'><h3>Back</h3></Link>
+                    </div>
+
 
                 </div>
             </div>

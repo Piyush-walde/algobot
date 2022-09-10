@@ -14,8 +14,8 @@ const Signal = () => {
 
             <p>  <h3>Signals</h3> </p>
             <p>
-              <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} />
-              <Link href='/myprofile'><AccountCircleIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} /></Link>
+              <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} />
+              <Link href='/myprofile'><AccountCircleIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} /></Link>
             </p>
 
           </div>
@@ -57,39 +57,39 @@ const Signal = () => {
 
           <table className='table'>
 
-              <thead className='flex thead'>
-                <th>No.</th>
-                <th>Date</th>
-                <th>Segment</th>
-                <th>Trade ID</th>
-                <th>Entry Time</th>
-                <th>Entry Price</th>
-                <th>Exit time</th>
-                <th>Exit Price</th>
-              </thead>
+            <thead className='flex thead'>
+              <th>No.</th>
+              <th>Date</th>
+              <th>Segment</th>
+              <th>Trade ID</th>
+              <th>Entry Time</th>
+              <th>Entry Price</th>
+              <th>Exit time</th>
+              <th>Exit Price</th>
+            </thead>
 
             <tbody className='flex tbody'>
-                <td>No.</td>
-                <td>Date</td>
-                <td>Segment</td>
-                <td>Trade ID</td>
-                <td>Entry Time</td>
-                <td>Entry Price</td>
-                <td>Exit time</td>
-                <td>Exit Price</td>
+              <td>No.</td>
+              <td>Date</td>
+              <td>Segment</td>
+              <td>Trade ID</td>
+              <td>Entry Time</td>
+              <td>Entry Price</td>
+              <td>Exit time</td>
+              <td>Exit Price</td>
             </tbody>
 
             <tbody className='flex tbody'>
-                <td>No.</td>
-                <td>Date</td>
-                <td>Segment</td>
-                <td>Trade ID</td>
-                <td>Entry Time</td>
-                <td>Entry Price</td>
-                <td>Exit time</td>
-                <td>Exit Price</td>
+              <td>No.</td>
+              <td>Date</td>
+              <td>Segment</td>
+              <td>Trade ID</td>
+              <td>Entry Time</td>
+              <td>Entry Price</td>
+              <td>Exit time</td>
+              <td>Exit Price</td>
             </tbody>
-              
+
           </table>
 
         </div>

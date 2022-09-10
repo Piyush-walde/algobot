@@ -14,8 +14,8 @@ const Myprofile = () => {
 
                     <p>  <h3>My profile</h3> </p>
                     <p>
-                        <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} />
-                        <AccountCircleIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} />
+                        <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} />
+                        <AccountCircleIcon style={{ color: 'white', fontSize: '60px', cursor: 'pointer' }} />
                     </p>
                 </div>
                 <div className='li'></div>
@@ -51,7 +51,7 @@ const Myprofile = () => {
 
                     </div>
 
-                   <Link href='/compo/password'><button className='btn1'>Change Password</button></Link> 
+                    <Link href='/compo/password'><button className='btn1'>Change Password</button></Link>
 
                     <div>
 

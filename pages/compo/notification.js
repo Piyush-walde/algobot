@@ -5,26 +5,26 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 const Notification = () => {
   return (
     <>
-    
-    <div className='container-notification'>
+
+      <div className='container-notification'>
         <div className='notification'>
-                <div className='iconnoti'>
-                    <NotificationsIcon className='noti' fontSize='large'/>
-                    <h3>Notification</h3>
+          <div className='iconnoti'>
+            <NotificationsIcon className='noti' fontSize='large' />
+            <h3>Notification</h3>
 
-                </div>
+          </div>
 
-                <div className='whitepart'>
+          <div className='whitepart'>
 
-                </div>
+          </div>
 
-                <Link href='/dashboard'><button className='btonnn'>Back</button></Link>
+          <Link href='/dashboard'><button className='btonnn'>Back</button></Link>
 
         </div>
 
-    </div>
-    
-    
+      </div>
+
+
     </>
   )
 }

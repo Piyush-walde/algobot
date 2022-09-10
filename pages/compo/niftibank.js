@@ -16,18 +16,18 @@ const Niftibank = () => {
                     </div>
 
                     <div className='cash-left smalll2'>
-                
-                    <button className='startbtn'>Commondity</button>
-                    <button className='startbtn'>All</button>
-                    <ArrowCircleLeftRoundedIcon className='iconn' fontSize='large' />                
-            </div>
+
+                        <button className='startbtn'>Commondity</button>
+                        <button className='startbtn'>All</button>
+                        <ArrowCircleLeftRoundedIcon className='iconn' fontSize='large' />
+                    </div>
 
 
 
 
 
                 </div>
-               
+
 
 
 
