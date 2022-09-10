@@ -14,8 +14,8 @@ const Brokerresponse = () => {
 
                <p>  <h3>Broker Response</h3> </p>
                <p>
-                        <CircleNotificationsIcon style={{color:'white', fontSize:'60px'}}/>
-                        <Link href='/myprofile'><AccountCircleIcon style={{color:'white', fontSize:'60px'}}/></Link>
+                        <CircleNotificationsIcon style={{color:'white', fontSize:'60px',cursor:'pointer'}}/>
+                        <Link href='/myprofile'><AccountCircleIcon style={{color:'white', fontSize:'60px',cursor:'pointer'}}/></Link>
                         
                             </p>
                             

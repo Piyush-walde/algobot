@@ -27,7 +27,7 @@ const Sidebar = () => {
 
                   </div>
                   
-                    <div className='small'></div>
+                    {/* <div className='small'></div> */}
               </div>
 
               <div className='fle'>

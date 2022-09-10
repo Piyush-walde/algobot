@@ -16,7 +16,7 @@ const Createaccount = () => {
             
                 <p className='line1'></p>
                 <div className='accountcircle'>
-                  <AccountCircleIcon style={{color:'white',fontSize:'70px'}}/>
+                  <AccountCircleIcon style={{color:'white',fontSize:'70px',cursor:'pointer'}}/>
                 </div>
                 <p className='line1'></p>
               </div>

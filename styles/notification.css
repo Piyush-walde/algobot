@@ -1,0 +1,51 @@
+.container-notification{
+      width: 100%;
+      height: 100vh;
+      /* background-color: pink; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+}
+
+.notification{
+    height: 600px;
+    width: 30%;
+    background-color: #0A1521;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: segoe UI;
+}
+.iconnoti{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.iconnoti >h3{
+    font-weight: 500;
+}
+.noti{
+    color: white;
+}
+
+.whitepart{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin-top: 10px;
+    position: relative;
+}
+.btonnn{
+    padding: 11px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    background-color: #143759;
+    color: white;
+    margin-left: 130px;
+    bottom: 60px;
+    outline: none;
+     position: absolute;
+    cursor: pointer;
+}

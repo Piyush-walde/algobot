@@ -8,7 +8,7 @@ const Login = () => {
 
         <div className='login-image'>
 
-            <Image src="/img.jpg" height="719px" width="700px"></Image>
+            <Image src="/img.jpg" alt='login image' height="726px" width="700px"></Image>
 
         </div>
 
@@ -34,7 +34,7 @@ const Login = () => {
 
                 <div className='usepas'>
                   <h5>Password*</h5>
-                  <input type="text" className='usertext'></input>
+                  <input type="password" className='usertext'></input>
                 </div>
 
                 <div className='usepas'>
@@ -44,8 +44,7 @@ const Login = () => {
                             <input type="checkbox"></input>
                             <h5>Remember me</h5>
                     </div>
-                     
-
+                    
                      <h5>Forgot Password?</h5>
 
                   </div>

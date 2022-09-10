@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link';
 import Sidebar from './compo/sidebar'
 import CircleNotificationsIcon from '@mui/icons-material/CircleNotifications';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle'
@@ -13,8 +14,8 @@ const Myprofile = () => {
 
                     <p>  <h3>My profile</h3> </p>
                     <p>
-                        <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px' }} />
-                        <AccountCircleIcon style={{ color: 'white', fontSize: '60px' }} />
+                        <CircleNotificationsIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} />
+                        <AccountCircleIcon style={{ color: 'white', fontSize: '60px',cursor:'pointer' }} />
                     </p>
                 </div>
                 <div className='li'></div>
@@ -49,7 +50,8 @@ const Myprofile = () => {
                         <p className='line6'></p>
 
                     </div>
-                    <button className='btn1'>Change Password</button>
+
+                   <Link href='/compo/password'><button className='btn1'>Change Password</button></Link> 
 
                     <div>
 
