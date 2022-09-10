@@ -1,0 +1,29 @@
+
+.Recent-container{
+    width: 77%;
+    margin-left: 19%;
+    padding: 10px;
+    font-family: segoe UI;
+}
+.recent{
+    color: white;
+    font-weight: 200;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: segoe UI;
+}
+
+.thead{
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.tbody{
+    padding: 10px;
+    color: white;
+}

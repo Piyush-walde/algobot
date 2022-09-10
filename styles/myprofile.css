@@ -3,11 +3,8 @@
 .profilebox {
     /* height: 110px; */
     width: 78%;
-
-    margin-left: 18%;
-
+    margin-left: 21%;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     column-gap: 30px;
     row-gap: 30px;
@@ -29,8 +26,8 @@
 .profile-info {
     width: 78%;
     background-color: #214261;
-    margin-top: 5px;
-    margin-left: 18%;
+    margin-top: 10px;
+    margin-left: 19%;
     justify-content: space-between;
     display: flex;
     font-family: segoe UI;
@@ -129,7 +126,7 @@ h4 {
 
 .apidcontainer {
     width: 100%;
-    /* height: 300px; */
+    height: 350px;
     margin-top: 10px;
     background-color: #466E96;
     padding: 20px;
@@ -137,8 +134,12 @@ h4 {
 }
 
 .inp {
+    margin-top: 5px;
     width: 100%;
     padding: 10px 20px;
+    outline: none;
+    border: none;
+    font-size: 16px;
 }
 
 .spn {
@@ -152,20 +153,20 @@ h4 {
     background-color: #143759;
     height: 30px;
     width: 100px;
-    margin-top: 1cm;
+    margin-top: 20px;
     border-radius: 0.1cm;
     border-color: #143759;
 }
-
 .pro-submit {
     color: white;
     background-color: #143759;
     height: 40px;
     width: 120px;
-    margin-top: 0.5cm;
+    /* margin-top: 0.5cm; */
     margin-left: 2cm;
     border-radius: 0.3cm;
     border-color: white;
+    cursor: pointer;
 }
 
 .pro-reset {
@@ -177,6 +178,7 @@ h4 {
     margin-left: 3cm;
     border-radius: 0.3cm;
     border-color: white;
+    cursor: pointer;
 }
 
 .spn2 {

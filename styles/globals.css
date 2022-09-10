@@ -234,7 +234,7 @@
   position: absolute;
   top: 0;
   padding: 170px 34px;
-
+  border-radius: 0px 10px 10px 0px;
 }
 .unlist li{
   color: white;

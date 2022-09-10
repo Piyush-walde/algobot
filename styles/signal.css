@@ -46,3 +46,98 @@
     background-color: white;
     
 }
+
+
+.symbol-container{
+    margin-top: 10px;
+    width: 70%;
+    /* height: 150px; */
+    /* background-color: pink; */
+    margin-left: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select{
+    padding: 7px 47px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: gray;
+    height: 40px;
+}
+.lineheight{
+    line-height: 40px;
+    margin-right: 10px;
+    color: white;
+    font-family: segoe UI;
+    font-weight: 200;
+    font-size: 16px;
+}
+.date{
+    display: flex;
+}
+
+.year{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnn{
+    padding: 10px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: #048BC8;
+    color: white;
+    cursor: pointer;
+}
+
+.bttncontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.dtn{
+    padding: 9px 28px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.Recent-container{
+    width: 77%;
+    /* height: 200px; */
+    /* background-color: pink; */
+    margin-top: 20px;
+    margin-left: 19%;
+    padding: 10px;
+    font-family: segoe UI;
+}
+.recent{
+    color: white;
+    font-weight: 200;
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: segoe UI;
+}
+
+.thead{
+    background-color: white;
+    padding: 10px 15px;
+}
+
+.tbody{
+    padding: 10px;
+    color: white;
+}

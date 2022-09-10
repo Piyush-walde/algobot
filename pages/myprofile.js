@@ -92,7 +92,7 @@ const Myprofile = () => {
                             <b>Web Url</b><input type='radio' name='status' className='spn2'></input> T4<input type='radio' name='status' className='spn2'></input> Trading View
 
                         </div>
-                        <div>
+                        <div className='mb'>
                             <button className='pro-submit'>Submit</button>
                             <button className='pro-reset'>Reset</button>
                         </div>
