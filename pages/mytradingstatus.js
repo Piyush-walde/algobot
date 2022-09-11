@@ -33,34 +33,34 @@ const Mytradingstatus = () => {
             <thead className='flex thead'>
               <th>No.</th>
               <th>Date</th>
-              <th>Segment</th>
-              <th>Trade ID</th>
-              <th>Entry Time</th>
-              <th>Entry Price</th>
-              <th>Exit time</th>
-              <th>Exit Price</th>
+              <th>Time</th>
+              <th>Placeholder</th>
+              <th>Symbol</th>
+              <th>Quantity</th>
+              <th>Strategy</th>
+              <th>Trading Status</th>
             </thead>
 
             <tbody className='flex tbody'>
-              <td>No.</td>
+              <td>1</td>
               <td>Date</td>
-              <td>Segment</td>
-              <td>Trade ID</td>
-              <td>Entry Time</td>
-              <td>Entry Price</td>
-              <td>Exit time</td>
-              <td>Exit Price</td>
+              <td>Time</td>
+              <td>Placeholder</td>
+              <td>Symbol</td>
+              <td>Quantity</td>
+              <td>Strategy</td>
+              <td>Trading Status</td>
             </tbody>
 
             <tbody className='flex tbody'>
-              <td>No.</td>
+              <td>2</td>
               <td>Date</td>
-              <td>Segment</td>
-              <td>Trade ID</td>
-              <td>Entry Time</td>
-              <td>Entry Price</td>
-              <td>Exit time</td>
-              <td>Exit Price</td>
+              <td>Time</td>
+              <td>Placeholder</td>
+              <td>Symbol</td>
+              <td>Quantity</td>
+              <td>Strategy</td>
+              <td>Trading Status</td>
             </tbody>
 
           </table>

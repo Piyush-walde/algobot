@@ -11,6 +11,7 @@ import '../styles/cash.css'
 import '../styles/niftybank.css'
 import '../styles/notification.css'
 import '../styles/password.css'
+import '../styles/mytradehistory.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

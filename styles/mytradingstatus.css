@@ -22,6 +22,12 @@
     background-color: white;
     padding: 10px 15px;
 }
+.thead > th{
+    text-align: center;
+}
+.tbody > td{
+    text-align: center;
+}
 
 .tbody{
     padding: 10px;

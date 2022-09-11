@@ -1,0 +1,42 @@
+.select1{
+    /* width: 60px; */
+    background-color: #048BC8;
+    display: flex;
+    padding: 8px 5px;
+    justify-content: space-between;
+    font-family: segoe UI;
+    border-radius: 10px;
+}
+.search{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    text-indent: 5px;
+    background-color: #048BC8;
+    color: white    ;
+   
+}
+::placeholder{
+    color: white;
+}
+
+.select2{
+    padding: 3px 40px;
+    font-family: segoe UI;
+    border-radius: 10px;
+    background-color: #048BC8;
+  
+}
+.select2 >h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+}
+
+.dtn2{
+    background-color: #048BC8;
+    color: white;
+    font-family: segoe UI;
+    font-size: 16px;
+}
