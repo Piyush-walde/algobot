@@ -12,7 +12,7 @@ const Sidebar = () => {
     <div className='sidebar'>
 
       <div className='logo'>
-        <Image src='/logo 13.jpg' alt='logo' width="100%" height="89px" ></Image>
+        <Image src='/logo1.jpg' alt='logo' width="100%" height="89px" ></Image>
       </div>
 
 
