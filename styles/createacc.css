@@ -2,7 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
-
+::placeholder{
+  color: #000000 !important;
+}
 .creat-container{
   width: 100%;
   height: 100vh;
